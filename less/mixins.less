@@ -1,1 +1,26 @@
 // Mixins Here
+
+.round-borders {
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.nav-padding {
+    padding: 20px;
+
+    @media (max-width: 500px) {
+        padding: 10px;
+    }
+}
+
+.button(@width; @bg; @color) {
+    width: @width;
+    background: @bg;
+    color: @color;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 120%;
+}
