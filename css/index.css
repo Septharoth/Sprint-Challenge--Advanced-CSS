@@ -98,6 +98,7 @@ footer {
   border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
